@@ -16,7 +16,7 @@ android {
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        manifestPlaceholders = [onesignal_app_id               : "eebd434d-a004-4d33-8675-2a548cadf988",
+        manifestPlaceholders = [onesignal_app_id               : "0c5d3580-c4d2-4103-9381-444d4f11784d",
                                 onesignal_google_project_number: "REMOTE"]
 
         buildConfigField "String", "BASE_HOST", "\"https://backend.northghost.com\""
