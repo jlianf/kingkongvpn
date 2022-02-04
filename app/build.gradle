@@ -27,8 +27,8 @@ android {
         buildConfigField "String", "STORED_HOST_URL_KEY", "\"com.northghost.afvclient.STORED_HOST_KEY\""
         buildConfigField "String", "STORED_CARRIER_ID_KEY", "\"com.northghost.afvclient.CARRIER_ID_KEY\""
 
-        buildConfigField "String", "APP_LINK", "\"https://play.google.com/store/apps/dev?id=9219179332656617922\""
-        buildConfigField "String", "PRIVACY_POLICY", "\"file:///android_asset/YOUR_PRIVACY_POLICY_HTML_FILE_NAME.html\""
+        buildConfigField "String", "APP_LINK", "\"https://play.google.com/store/apps/dev?id=com.yaydev.kingkongvpn\""
+        buildConfigField "String", "PRIVACY_POLICY", "\"https://yaydevelopers.blogspot.com/2022/02/privacy-policy.html\""
         buildConfigField "String", "TERMS_TO_USE", "\"file:///android_asset/YOUR_TERMS_TO_USE_HTML_FILE_NAME.html\""
 
         buildConfigField "Boolean", "USE_IN_APP_PURCHASE", "false"
@@ -41,8 +41,8 @@ android {
         buildConfigField "Boolean", "GOOGlE_AD", "true"
         buildConfigField "String", "FACEBOOK_BANNER", "\"IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID\""
         buildConfigField "String", "FACEBOOK_INTERSTITIAL", "\"VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID\""
-        buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-3940256099942544/6300978111\""
-        buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-3940256099942544/1033173712\""
+        buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-4905035688129642/6860573196\""
+        buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-4905035688129642/2432752335\""
     }
     signingConfigs {
         release {
